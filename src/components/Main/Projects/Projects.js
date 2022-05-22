@@ -3,6 +3,7 @@ import styles from "./Projects.module.css";
 import { ProjectDetail } from "./ProjectDetail";
 import { projects as projectData } from "../../../assets/data/projects";
 
+//rendring info from prkect data
 export const Projects = () => {
   return (
     <section className={styles.projects}>

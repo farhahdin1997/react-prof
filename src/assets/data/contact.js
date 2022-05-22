@@ -1,3 +1,5 @@
+// Storing the contact detaials to render in the application
+
 export const contact = {
   name: "Farhah Din",
 

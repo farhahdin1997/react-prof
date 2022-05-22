@@ -4,7 +4,7 @@ import styles from "./ProjectDetail.module.css";
 export const ProjectDetail = props => {
   const { name, thumbnail, description } = props.project;
   const projectNo = props.no.toString().padStart(2, "0");
-
+//Styling and rending the information from css and project detailmodule.js
   return (
     <section className={styles.item}>
       <div className={styles.thumbnail}>

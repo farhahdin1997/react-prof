@@ -1,13 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto+Slab:400,700&display=swap");
-
-:root {
-  --main-bg-color: #eae5e5;
-  --secondary-color: #61d0d4;
-  --tertiary-color: #d1c926;
-  --text-color: #4d4d4d;
-  --mobile-width: 90%;
-}
-
+/*Sytling the whole app with these feautes*/
+/*Will apply throughtout the whole page*/
 .App {
   min-height: 100vh;
   color: black;

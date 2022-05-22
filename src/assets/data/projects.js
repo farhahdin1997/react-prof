@@ -1,3 +1,4 @@
+// Storing the project detaials to render in the application
 export const projects = [
   {
     name: "Notetaker",
@@ -33,11 +34,11 @@ export const projects = [
   {
     name: "Project 1",
     thumbnail: {
-      src: "Food pit an app that allows uers to view various recipes, this app ussed two apis. One to fetch the recipes and the other to view vidoes that allows users to view the video of the recipe they are viewing",
+      src: "https://i.postimg.cc/R0TM1MdH/Untitled-3.png",
       alt: "foodpit"
     },
     description: [
-      "kfnekalhnkalhkhjkhk;hkad"
+      "Food pit an app that allows uers to view various recipes, this app ussed two apis. One to fetch the recipes and the other to view vidoes that allows users to view the video of the recipe they are viewing"
     ]
   },
   {

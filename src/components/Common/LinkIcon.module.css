@@ -1,8 +1,9 @@
-.small {
-  font-size: 1.1rem;
+/*Size of the faveicon*/
+.large {
+  font-size: 3rem;
   margin-right: 0.5rem;
 }
-
+/*Styling of the faveicon*/
 .large {
   color: white;
   font-size: 1.2rem;

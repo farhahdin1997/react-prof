@@ -13,23 +13,22 @@ export const Footer = () => {
   /*Rending the icons on the footer*/
   /*Getting the link from data in assets folder < contacts*/
   return (
+    //stlying the footer with styles. , Linkicon is bringin the fave icon from linkicon.js but getting the data from contact dataa.
     <footer className={styles.footer}>
       <section className={styles.container}>
         <section className={styles.item}>
           <p>
+            
             <LinkIcon
               href={linkedin}
               icon={faLinkedin}
-              style={styleIcon.small}
+              style={styleIcon.large}
             />
-{/*           
-             <LinkIcon href={Twitter}
+         
+            {/*<LinkIcon href={Twitter}
               icon={faTwitter} style={styleIcon.small} />  */}
-            <LinkIcon href={github} icon={faGithub} style={styleIcon.small} /> 
+            <LinkIcon href={github} icon={faGithub} style={styleIcon.large} /> 
           </p>
-        </section>
-        <section
-          className={styles.item} >
         </section>
       </section>
     </footer>

@@ -7,12 +7,17 @@
     "@fortawesome/free-brands-svg-icons": "^5.10.1",
     "@fortawesome/free-solid-svg-icons": "^5.10.1",
     "@fortawesome/react-fontawesome": "^0.1.4",
+    "gh-pages": "^4.0.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
+    "react-moving-text": "^0.0.7",
     "react-router-dom": "^5.0.1",
     "react-scripts": "^5.0.0"
   },
+  "homepage": "https://farhahdin1997.github.io/react-prof",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
